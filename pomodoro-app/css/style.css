@@ -8,6 +8,10 @@
   vertical-align: baseline;
   text-decoration: none;
 }
+::-webkit-scrollbar{
+  width: 0px;
+  height: 0px;
+}
 :root {
   --yellow: #e49400;
   --green: #2d8515;
@@ -34,15 +38,7 @@ body {
   flex-direction: row;
 }
 
-footer {
- color: white;
- margin-bottom: 50% ;
- margin-left: -29%;
- margin-block-end: -50%;
- align-items: center;
 
-
-}
 .card {
   display: flex;
   flex-direction: column;
@@ -100,7 +96,7 @@ footer {
   justify-content: center;
   background: conic-gradient(var(--blue) 360deg, var(--purple) 0deg);
   border-radius: 50%;
-  animation: pulse 3s infinite;
+  animation: pulse 5s infinite;
   transition: all ease;
   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
               rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
@@ -137,6 +133,7 @@ footer {
   color: var(--title-primary-color);
   font-weight: 900;
   font-size: 14px;
+  
 }
 .card-footer .btn-sucess {
   background-color: var(--green);
