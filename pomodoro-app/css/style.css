@@ -80,11 +80,8 @@ body {
   border: 2px solid rgba(180, 167, 167, 0.587);
   transform: translate( -3px, -3px);   
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.315);
-  transition: transform.5s;
-  
-  
+ }
 
-}
 .card-header-buttons .active {
   background-color: var(--red);
 }
