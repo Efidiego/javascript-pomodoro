@@ -20,6 +20,7 @@
 }
 body * {
   font-family: "Roboto", sans-serif;
+  
 }
 body {
   height: 100vh;
@@ -34,7 +35,12 @@ body {
 }
 
 footer {
-  align-items: end;
+ color: white;
+ margin-bottom: 50% ;
+ margin-left: -29%;
+ margin-block-end: -50%;
+ align-items: center;
+
 
 }
 .card {
