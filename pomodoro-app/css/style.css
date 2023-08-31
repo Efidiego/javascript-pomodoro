@@ -11,12 +11,12 @@
 :root {
   --yellow: #e49400;
   --green: #2d8515;
-  --red: #db2a34;
+  --red: #ad2d2d;
   --blue: #2477ff;
-  --dark-blue: #17193b;
+  --dark-blue: #46497c;
   --purple: #474d84;
   --purple-secondary: #333867;
-  --title-primary-color: rgb(231 226 226);
+  --title-primary-color: rgb(241, 214, 214);
 }
 body * {
   font-family: "Roboto", sans-serif;
