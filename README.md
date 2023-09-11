@@ -1,2 +1,2 @@
-# javascript-tutorial
-javascript-tutorial
+# javascript-pomodoro
+javascript
