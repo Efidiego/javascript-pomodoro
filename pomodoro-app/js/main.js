@@ -29,15 +29,21 @@ function formatNumberInStringMinute(number){
 }
 
 const startTimer = () => {
+    stopTimer(); // Para o temporizador antes de iniciar um novo
+    console.log("Iniciando temporizador...");
     progressInterval = setInterval(() => {
         timerValue--;
         setInfoCircularProgressBar();
     }, 1000);
 }
 
+
+
+
 const stopTimer = () => clearInterval(progressInterval);
 
-const resetTimer = () =>{
+const resetTimer = () => {
+    console.log("Resetando temporizador...");
     clearInterval(progressInterval);
 
     timerValue = (pomodoroType === TIMER_TYPE_POMODORO) 
@@ -46,9 +52,11 @@ const resetTimer = () =>{
 
     multiplierFactor = 360 / timerValue;
 
-    setInfoCircularProgressBar();    
-    // audio.stop();
+    setInfoCircularProgressBar();
+    startTimer(); // Inicia o temporizador novamente após a reinicialização
 }
+
+
   
 function setInfoCircularProgressBar(){
 
