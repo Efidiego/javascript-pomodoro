@@ -82,5 +82,10 @@ const setPomodoroType = (type) =>{
     }
 
     resetTimer();
+
+// JavaScript
+buttonTypePomodoro.classList.add('button');
+buttonTypeShortBreak.classList.add('button');
+
 }
 

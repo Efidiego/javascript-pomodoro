@@ -167,6 +167,29 @@ body {
   100% {
     transform: scale(0.97);
     box-shadow: 0 0 0 0 rgba(52, 172, 224, 0);
-  }
   
+  }
 }
+
+@keyframes buttonAnimation {
+  0% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(3px);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+
+.button {
+  transition: transform 0.3s;
+}
+
+.button:active {
+  animation: buttonAnimation 0.3s;
+}
+
+
+
